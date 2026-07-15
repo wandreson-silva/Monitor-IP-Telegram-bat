@@ -44,4 +44,6 @@ timeout /t %INTERVALO% /nobreak > nul
 goto LOOP
 ```
 
+# Terminal
 
+![Principais Comandos Linux](./telegram_bat1.png)
