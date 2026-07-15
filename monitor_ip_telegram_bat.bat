@@ -31,7 +31,7 @@ if not "%IP_ATUAL%"=="%IP_ANTIGO%" (
     echo %IP_ATUAL% > %FILE_IP%
 
     powershell -Command ^
-    "$msg='🔔 IP alterado!`nAntigo: %IP_ANTIGO%`nNovo: %IP_ATUAL%';" ^
+    "$msg=' IP alterado!`nAntigo: %IP_ANTIGO%`nNovo: %IP_ATUAL%';" ^
     "Invoke-RestMethod -Uri 'https://api.telegram.org/bot%TOKEN%/sendMessage' -Method Post -Body @{chat_id='%CHAT_ID%';text=$msg}"
 )
 
