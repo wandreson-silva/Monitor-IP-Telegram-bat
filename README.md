@@ -44,11 +44,6 @@ timeout /t %INTERVALO% /nobreak > nul
 goto LOOP
 ```
 
-# Terminal
-
-![Principais Comandos Linux](./telegram_bat1.1.png)
-
-
 ```text
 
 Esse script é um monitor de IP público automatizado. Ele serve para quem tem internet com IP dinâmico (que muda de tempos em tempos) e precisa saber o IP atual da rede (por exemplo, para acessar um servidor caseiro, VPN ou câmera de segurança de fora de casa).
@@ -98,4 +93,8 @@ Se for diferente (O IP mudou!):
 ```text
 Ele usa o comando timeout para esperar 60 segundos (ou o tempo que você configurou) e depois volta para o início (goto LOOP) para fazer tudo de novo.
 ```
+
+# Terminal
+
+![Principais Comandos Linux](./telegram_bat1.1.png)
 
