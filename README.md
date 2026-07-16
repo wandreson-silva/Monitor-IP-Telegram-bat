@@ -46,4 +46,4 @@ goto LOOP
 
 # Terminal
 
-![Principais Comandos Linux](./telegram_bat1.png)
+![Principais Comandos Linux](./telegram_bat1.1.png)
